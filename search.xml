@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>在阿里云云服务器上发布自己的网站（建站|详细）</title>
+      <link href="/2021/08/18/%E5%9C%A8%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BD%91%E7%AB%99%EF%BC%88%E5%BB%BA%E7%AB%99-%E8%AF%A6%E7%BB%86%EF%BC%89/"/>
+      <url>/2021/08/18/%E5%9C%A8%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BD%91%E7%AB%99%EF%BC%88%E5%BB%BA%E7%AB%99-%E8%AF%A6%E7%BB%86%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<p>地址：<br><a href="https://msezi.blog.csdn.net/article/details/82954975?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.control&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.control">https://msezi.blog.csdn.net/article/details/82954975?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.control&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-4.control</a></p><p><img src="/images/941-2600x1734.jpg" alt="upload successful"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vscode：将代码提交到github</title>
+      <link href="/2021/08/18/vscode%EF%BC%9A%E5%B0%86%E4%BB%A3%E7%A0%81%E6%8F%90%E4%BA%A4%E5%88%B0github/"/>
+      <url>/2021/08/18/vscode%EF%BC%9A%E5%B0%86%E4%BB%A3%E7%A0%81%E6%8F%90%E4%BA%A4%E5%88%B0github/</url>
+      
+        <content type="html"><![CDATA[<p>一，使用Git提交至GitHub<br>你的项目肯定在一个文件夹内，在此文件夹内，右键git bash（前提你自己已经本地安装配置好git了），输入git init，则此文件夹内会生成一个 .git文件夹，此时说明你这个项目的文件已经被控制了，在这之前我已经用vscode直接打开文件夹的方式打开了项目，现在打开vscode会看到，你项目所有文件变色了如下图;</p><p><img src="/images/20190427180303639.png" alt="upload successful"></p><p>然后</p><p>依次输入如下命令：</p><p>git add test.php（随便一个你的文件）<br>git commit -m “第一次提交” //注释说明<br>git remote add origin <a href="https://github.com/***/VSCode_Git_Test.git">https://github.com/***/VSCode_Git_Test.git</a> （这里是你的github仓库地址）<br>git push -u origin master  //提交到你的仓库</p><p><img src="/images/20190427180601606.png" alt="upload successful"></p><p>接下来就可以在GitHub上看到你提交的代码了</p><p><img src="/images/aH1.webp" alt="upload successful"></p><p>二，利用VSCodes上传代码至GitHub<br>(1)文件的变化<br>接下来事情就很简单了，在VSCode中打开受控制的文件夹或者说打开你初始化后的的项目，我新建立一个hahaha.php的文件，此时左侧菜单栏立马就会有反应</p><p><img src="/images/aH3.webp" alt="upload successful"></p><p>由此可以得出结论，只要该文件夹下稍有变动就会检测出来，并且可以提示出来有几个文件有变动<br>(2)上传<br>点击这个类似于弹弓一样的图标，我们可以发现刚才创建的hahaha.php正在等待被上传</p><p><img src="/images/aH8.webp" alt="upload successful"></p><p>如果你想上传单个文件可以点击该文件右侧的小加号</p><p><img src="/images/aH6.webp" alt="upload successful"></p><p>上传多个文件就可以直接点击更改右侧的加号</p><p><img src="/images/aH7.webp" alt="upload successful"></p><p>上传之后会让你填写说明，说明你本次提交的东西有什么样的改动，写完之后直接按Ctrl + 回车提交</p><p><img src="/images/aH5.webp" alt="upload successful"></p><p>到此为止还差最后一步，就是推送到GitHub相当于Git当中的pull命令。<br>还是点击弹弓一样的图标，找到你的受控制文件夹，右侧有一个“…”的图标，点击该图标会出现一个长菜单，点击其中的推送即可完成。</p><p><img src="/images/aH4.webp" alt="upload successful"></p><p>完成，直接去GitHub上看效果</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>虚拟主机</title>
+      <link href="/2021/08/18/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/"/>
+      <url>/2021/08/18/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</url>
+      
+        <content type="html"><![CDATA[<p>2021年有哪些便宜好用的虚拟主机？云虚拟主机哪个好？自用国内外免备案虚拟主机及VPS服务器推荐</p><p>别看我玩独立博客的年头不多，但换过的虚拟主机真不算少，用“摸着石头过河”这句话形容再不为过，从开始的各种淘宝便宜空间的尝试，到最后找到适合自己的空间服务商，也算绕个大圈子，但这种东西光听别人说其实不如自己试一试，毕竟外面的世界太精彩，弄得人眼花缭乱。这篇文章主要写一下我用过的、还有道听途说口碑不错的空间服务商的总结，我的需求就是：性价比高、速度一般或快最好、必须要稳定的免备案虚拟主机！如果你的需求和我差不多，请继续看吧！</p><p>各种免费虚拟主机</p><p>访问速度：★☆☆☆☆<br>稳定性：★☆☆☆☆<br>性价比：★☆☆☆☆<br>推荐指数：★☆☆☆☆<br>如果你是要做学校的作业，那倒是可以尝试网上的免费虚拟主机，因为这种一般限制很大，而且稳定性不能担保，玩玩或者一次性展示个静态页面之类的还可以。</p><p>各种淘宝货</p><p>访问速度：★★☆☆☆<br>稳定性：★☆☆☆☆<br>性价比：★★☆☆☆<br>推荐指数：★☆☆☆☆<br>你问我为什么最开始会在淘宝挑选虚拟主机？答案很简单：图便宜。可惜在淘宝找靠谱的虚拟主机真的是太难了！淘宝上被提到最多的可能就是“香港主机”了吧，这真的很毁名声……代表着便宜、稳定性差，我在淘宝买过N家虚拟主机，可能都是没什么名气的个人服务商，但是人家卖的是真的便宜啊，一年60~90元！销量杠杠的！产品体验简直不能再差，偶尔小掉线、三天两头大掉线，隔三差五还把你的数据库搞丢！跟服务商联系也基本没什么用，下次该掉线丢数据还会继续，因为人家便宜啊！！个人觉得，这种便宜的淘宝主机也就是比网上各种免费虚拟主机提供了点容量和功能限制上的拓展。也是玩玩还可以。</p><p>老薛主机 <a href="http://www.laoxuehost.com/">http://www.laoxuehost.com/</a></p><p>访问速度：★★★★★<br>稳定性：★★★★☆<br>性价比：★★★★★<br>推荐指数：★★★★★<br>老薛主机25%首次折扣码（125）15%终身折扣码（a15）<br>这款可免备案虚拟主机是从知乎上看到有人提及才开始用的，代表着我正式脱离淘宝货的进步步伐。当然心生感慨：“啊！XX主机真的是既便宜又好用啊！~”他家的服务很好，有什么问题提交支持单就可以了，解决效率也很高，当时用的是他家128元一年的美国虚拟主机，1GB空间、流量限制15GB/月够一般WordPress个人站使用了，还不用备案，速度也可以，关键是真的很稳定，除了自己折腾WordPress代码玩坏了基本都能保持服务器在线，128元也就是在淘宝货的基础上加一点呗，当时真的很满意。</p><p>用了大概一年，其中有一次我当时用的服务器被感染Darkleech，提交工单后技术人员没有解决问题（确实很棘手），于是提出了更换服务器，他们也帮我换了（关于这件事如果你想看热闹可以看这篇日志：[已解决]个人网站被植入恶意代码事件）。后来嘛，到期我就换别人家的主机了，至于原因嘛，当然是因为发现更好的咯……</p><p>（2020年底有朋友私我反应老薛主机不回工单，但是我暂时没遇到，有欲购买的朋友请三思）</p><p>云左科技 <a href="http://www.cloudleft.com/">http://www.cloudleft.com/</a></p><p>访问速度：★★★★★<br>稳定性：★★★★★<br>性价比：★★★★★<br>推荐指数：★★★★★<br>云左主机，更便宜更给力！主打海外主机产品，推荐大家先去看看价格（隔三差五还打折），然后对比一下，和老薛主机这样性价比高的“冷门独立服务商”比，只有更实惠，用过他家的云虚拟主机和VPS（最便宜45一个月那种），速度快挺稳定，甚至我当时自己不会弄搞的WordPress 500代码问题时都各种QQ骚扰客服（顺便赞一下闲云和小鱼客服的服务 ♪(´▽｀)），每次都得到很好的反馈，最主要的是：他家服务器真的是稳定速度好，价格相比国内外的服务商都要便宜！！不敢说是最便宜的，但如果有更便宜还能提供这么好服务的，请告诉我……o(&gt;_&lt;)o ~~</p><p>GoDaddy（狗爹） <a href="https://www.godaddy.com/">https://www.godaddy.com/</a></p><p>访问速度：★★★☆☆<br>稳定性：★★★★★<br>性价比：★★★☆☆<br>推荐指数：★★☆☆☆<br>美国老牌，在很多国家都有节点甚至公司客服，价格真的没啥优势，但是安全可靠性还是无可厚非的，除非你是大企业有人给你拿钱买虚拟主机、而且自己英语好能沟通，否则不推荐用狗爹，用过一次，付款时出了点小问题（看热闹的点这里：GoDaddy账户被锁问题，解锁流程 Request to Unlock Account），当时空间被锁还发了几封邮件，全程用特么的英文……至于访问速度，我为啥没给满分，是因为不管在国内还是国外，体验是真的不快……</p><p>西部数码 <a href="http://www.west.cn/">http://www.west.cn/</a></p><p>访问速度：★★★★★<br>稳定性：★★★★★<br>性价比：★★★★★<br>推荐指数：★★★★★<br>国内知名品牌之一，如果你想把网站放在国内，推荐用西部数码虚拟主机的理由是因为他家的产品相比其它国内大牌主机商要便宜。稳定性和速度没的说，我曾经暴力测试过西部数码的虚拟主机（就是便宜的那种），结果很令人满意，属于抗造型。有问题提交工单得到的反馈也非常快。因为他家的香港和美国空间相比老薛云左来说要贵，所以只推荐给需要用国内空间的朋友们。</p><p>美橙互联 <a href="http://www.cndns.com/">http://www.cndns.com/</a></p><p>访问速度：★☆☆☆☆<br>稳定性：★★★★☆<br>性价比：★☆☆☆☆<br>推荐指数：★☆☆☆☆<br>美橙的价格是向西部数码靠拢的，但没想到他家的服务这么坑。在他家买过云虚拟主机，速度慢的跟在淘宝买杂牌虚拟主机差不多，而且没有网页端的虚拟主机文件管理，很不方便用，空间备份的功能也做的很差，花了和西部数码虚拟主机同样的价格得来的东西却完全不在一个级别，极力不推荐。</p><p>以上既是我个人推荐的性价比高的虚拟主机及VPS。另外，如果有朋友不考虑价格问题的话、这里还有一些国内知名空间服务商可以了解一下：</p><p>阿里云：不推荐，用过一年多最后发现海外用户访问很不稳定。<br>腾讯云、百度云：没用过，都是服务器所以配置复杂一些。<br>万网：出名，价格贵服务一般。<br>新网：早些年出名，现在不行了。<br>景安网络：便宜的国内虚拟主机，各项都一般般。</p><p>还有一些剩下的我个人没用过、道听途说貌似还不错、如果感兴趣可以了解一下的国外免备案虚拟主机：</p><p>Linode<br>搬瓦工<br>……</p><p>最后普及一个关于需不需要备案的知识：个人网站需要备案是我国特色之一，一般国家并没有这个政策，其目的是要安全网络环境（然而梦想和现实总是有一段差距），凡是用国内的空间（包括虚拟主机、VPS、服务器等）都需要备案才可以使用，备案需要到空间服务商那里先让他们审核、然后给管局审核，最后才能下发。理论上讲如果备案后的域名绑定了非备案时对应的空间，需要更新备案信息，否则随时可能被吊销。 用海外的空间可以免去备案的烦恼，只要你做的是合法的东西，一直用海外空间也基本无碍、也不影响搜索引擎收录。但如果你想和国内网站合作、比如用类似百度联盟的东西做广告赚钱则百度那边需要你提供网站备案号才可以申请。所以备案还是不备案完全取决于个人（但是想用国内空间的话就必须得备案，PS：香港除外）。</p><p>总结：像“老薛主机”、“云左科技”这种独立门户的主机提供商在国内真的是层出不穷，想找到合适靠谱的办法也基本就靠口碑和亲自体验，关于价格上的问题，最开始我也以为国外的虚拟主机会不会更便宜，但结果发现我错了，国外的虚拟主机价格只会更高，虽然国内的虚拟主机提供商很多也是直接买的国外的虚拟主机资源、然后分割成小部分卖到国内，但是分得很小很细，所以价格真的还是比你直接去国外网站买要便宜……</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>视频合集</title>
+      <link href="/2021/08/18/%E8%A7%86%E9%A2%91%E5%90%88%E9%9B%86/"/>
+      <url>/2021/08/18/%E8%A7%86%E9%A2%91%E5%90%88%E9%9B%86/</url>
+      
+        <content type="html"><![CDATA[<p>编程导航-发现优质编程学习资源<br><a href="https://www.code-nav.cn/">https://www.code-nav.cn/</a></p><p>星辰云<br><a href="https://starxn.com/">https://starxn.com/</a></p><p>butterfly美化<br><a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p><p>butterfly美化视频<br><a href="https://space.bilibili.com/13282871?spm_id_from=333.788.b_765f7570696e666f.1">https://space.bilibili.com/13282871?spm_id_from=333.788.b_765f7570696e666f.1</a></p><p>【网站搭建】15分钟5块钱，搭建一个属于自己的论坛网站！谁不想当站长？？？<br><a href="https://www.bilibili.com/video/BV1R64y1i7jr">https://www.bilibili.com/video/BV1R64y1i7jr</a></p><p>手把手带你从0搭建个人网站，小白可懂的保姆级教程 | 2种方法让你拥有个人博客，程序员自学编程必备<br><a href="https://www.bilibili.com/video/BV1rU4y1J785">https://www.bilibili.com/video/BV1rU4y1J785</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>初级Vue面试(2022)</title>
       <link href="/2021/07/26/%E5%88%9D%E7%BA%A7Vue%E9%9D%A2%E8%AF%95-2022/"/>
       <url>/2021/07/26/%E5%88%9D%E7%BA%A7Vue%E9%9D%A2%E8%AF%95-2022/</url>
